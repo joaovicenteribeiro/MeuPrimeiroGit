@@ -51,4 +51,36 @@ inicial de pedidos. • Suba as alterações para o remoto.
 
 ## • Etapa 6 — Atualizando a documentação
 • Altere o README.md, acrescentando a documentação do que foi feito até aqui. • Inclua qualquer conteúdo nos arquivos, nosso foco é com o git. • Utilize o git diff • Através do add, organize os arquivos e diretórios. • Crie um ponto de versão, devendo ser utilizada a seguinte mensagem de commit: Atualiza documentação do
-projeto. • Suba as alterações para o remoto.
+projeto. 
+• Suba as alterações para o remoto.
+
+## • Etapa 7 — Contato
+• Crie uma nova funcionalidade chamada Contato, composta por um arquivo HTML e um arquivo CSS específico.
+src/contato.html
+src/contato.css
+
+• Inclua qualquer conteúdo nos arquivos, nosso foco é com o git. • Através do add, organize os arquivos e diretórios, preparando eles para um único commit. 
+• Crie um ponto de versão, devendo ser utilizada a seguinte mensagem de commit: Adiciona documentação e página
+inicial de contato. • Suba as alterações para o remoto.
+
+## • Etapa 8 — Atualizando a documentação
+• Altere o README.md, respondendo as perguntas abaixo: 
+### • Qual é a diferença entre Working Directory, Staging Area e Repository? 
+*Working Directory*: Onde é trabalho o projeto cria,edita e apaga.
+*Staging Area*: O meio termo quando utilizo o "git add".
+*Repository*: Onde fica os commits
+
+### • Qual é a diferença entre git commit e git push? 
+*Commit*: local
+*Push*: repositorio remoto 
+
+### É possível realizar vários commits antes de executar um git push? Explique. 
+Sim, quando eu fazer o "git push -u origin main", vai subir todos os commits
+
+### • Por que é interessante realizar commits pequenos e descritivos? 
+Porque o controle fica melhor e mais claro, caso ocorra falhas no desenvolvimento é mais identificavel o versionamento que precisa ser retornado
+
+### • O que acontece com os commits locais quando ainda não executamos o git push? 
+Ficam numa pasta oculta chamada .git
+### • Como verificar, pelo GitHub, se os commits foram enviados corretamente?
+No repositorio local
